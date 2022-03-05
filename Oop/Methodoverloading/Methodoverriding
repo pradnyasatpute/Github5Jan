@@ -1,0 +1,52 @@
+- name of methods are same with same parameters / arguments
+- achieve runtime polymorphism
+- it requires IS-A relationship
+
+HomeWork :
+class Bank {
+   double getrateinterest(){
+      return 7 ;
+   }
+}
+class SBI extends Bank {
+    double getrateinterest(){
+          return 8 ;
+}
+class ICICI extends Bank {
+    double getrateinterest(){
+          return 9 ;
+}
+class BankImpl{
+
+}
+
+
+2.Difference between Method Overloading & Method overriding
+3.can we override the main method ?
+4.can we overload the main method ?
+5.
+class Employee{
+    double salary = 50000;
+}
+class Developer extends Employee{
+    double salary = 30000;
+    double CalculateSalary(){
+        double TotalSalary = 5000 + salary ;
+        return TotalSalary ;
+    }
+    void printSalary(){
+    //print salary
+    }
+}
+class Tester extends Employee{
+    double CalculateSalary(){
+        TotalSalary = 1000 + salary;
+        return TotalSalary ;
+     }
+     void printsalary(){
+     //print salary
+     }
+  }
+
+
+}

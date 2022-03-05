@@ -1,0 +1,11 @@
+Constructor :
+            - special type of function which invoke automatically when object of class is created
+            -Rules:
+                -1.Class name and constructor name should be same
+                -2.constructor doesn't have any return type
+                -3.Static , final and Synchronize keywords are not allowed
+             -Two types of constuctor:
+                -1.Default Constructor
+                -2.Parameterized Constructor
+             -Use:
+                -to initiatiate variable to default value

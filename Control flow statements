@@ -1,0 +1,22 @@
+3 types of control flow statements
+
+1.Decision making Statements
+        - if
+          a). simple if
+          b). If-else
+          c). Nested If
+        - switch
+           -executes one statement from multiple condition
+           -works with byte,short,int,long(till java 6)
+           -works with String(from java 7)
+2.Loop statments
+        - for Loop
+          a). simple for loop
+          b). Nested for loop
+        - for each loop
+        - while Loop
+        - do while Loop
+
+3.Jump statements
+        - break statement
+        - continue statement

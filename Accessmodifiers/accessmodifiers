@@ -1,0 +1,19 @@
+- provides accessibility for fields , methods or constructors.
+4 types of accessmodifiers / Specifiers
+1.private
+    - with in the class only
+    - not accessible out the class , package
+    - class never be private
+2.default
+    -not accessible outside the package
+    -can have access outside  the class with same package
+    - can have access in sub-class
+3.protected
+    -access within the package
+    -not asccessible outside the package
+    -through the child or by extending the class we can access protected data member outside the cpackage (through inheritance)
+4.public
+    - access everywhere
+
+
+

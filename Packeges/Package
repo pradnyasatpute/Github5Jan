@@ -1,0 +1,15 @@
+- group of similar types of classes , interface & sub-package
+- Package name should be in lowercase
+Types
+1. Built in Packages
+    eg. java.util,java.sql,java.net , java.lang , java.swing ,java.awt
+2. User defined Packages
+
+Advantages :
+1. To categarised classes and interfaces
+2. provides access protection
+3.removes naming collision
+
+
+Note : If you import a package using *(all classes and interfaces),
+subpackages will not be imported , only classes and interfaces imported

@@ -1,0 +1,93 @@
+Oops Concept
+
+1).Object
+- Instance of a class
+- Real World entity
+- eg., table , pen , chair , bag , glass
+- consumes space/memory
+- it has states and behaviours
+- logical or physical
+- cat : states : color,name,breed   behaviours: running, eating , meow
+
+- 3 ways to initialize object in java :
+  1) By reference variable
+  2) By method
+  3) By constructor
+
+2). Class
+- template or blueprint for the objects
+- collection of objects
+- logical entity
+- doesn't consume any space
+
+3).Inheritance
+- when an obj acquires all the properties and behaviours of parent object
+- provides code re-usability
+- used to achieve runtime polymorphism
+***- it represents Is-A relationship ***
+eg.,
+dog is a animal
+doctor is a person
+sparrow is a bird
+cat is a animal
+question :
+class shape {
+    double Calculatearea()
+
+*Types of inheritance :
+    1).single
+   * 2).multiple  //not supported by java
+    3).Hierarchical :   one Parent class and many child class
+
+    4).multilevel
+   * 5).hybrid // not supported by java
+   //note: java doesn't support multiple and hybrid inheritance
+
+4).polymorphism
+- one task is performed in different ways
+- eg., cat sounds meow,lion sounda roar and dog sounds woof
+
+ Method Overloading :
+            - name of the method is same but arguments / parameters are different
+            eg.,
+                void add(int a, int b )
+                void add(int a, int b , int c )
+                void add(int a, int b ,int c , int d)
+                void add(int a, int b , Float c)
+5).abstraction
+- hiding internal details and showing functionality
+eg., washing machine ..don't know internal processing
+
+6).Encapsulation
+- binding or wrapping of data and code together in a single unit(class)
+- eg., capsule..wrapped with different medicines
+eg.
+    class Student{
+        private int id;
+        private String name;
+    }
+    advantages :
+        -for security
+        -
+
+
+
+
+ *New keyword :
+ - it is used to allocate memory at runtime in heap area
+
+ **method :
+    - to expose the behaviour of an object
+    - advantages
+    - code optimization          ##by using the method , we reduces the code
+    - code re_usability              ## reuse the code
+Explain PIE ?
+- Polymorphism
+- Inheritance
+- Encapsulation
+
+
+Homework :
+
+      -Area of circle , rectangle , square
+

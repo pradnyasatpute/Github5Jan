@@ -1,0 +1,20 @@
+Objects
+Throwable                               /*all are the classes in java*/
+        Exception(can be handled)
+            - SQLException
+            - IOException
+                      - FileNotFoundexception
+            - RunTimeException(Un-checked exception)
+                      - ArithmaticException
+                      - NullPointerException
+                      - NumberFormatException
+                      - SecurityException
+                      - ClassCastException
+                      - IndexOutOfBoundException
+                                        - ArrayIndexOutOfBoundException
+                                        -StringIndexOutOfBoundException
+
+        Error(Can't be handled)
+            - OutOfMemoryError
+            - StackOverFlowError
+            - UnknownError

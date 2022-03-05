@@ -1,0 +1,28 @@
+Constructor :
+    - it is block(similar to method) having same name as that of class_name
+    - it doesn't have any return type , not even void .
+    - the only modifiers applicable for constructor are public , protected , default and private
+    - it executes automatically when we create object
+    - used to initialize an object
+    -3 types of constructor
+            1.Default Constructor : - (no-arg constructor)
+                                    - compiler creates constructor
+            2.No-arg constructor  : - (user defined)
+                                    -
+            3.Parameterised constructor : - constructor with parameters
+
+    - 2 ways to call constructor :
+            1. Test t = new Test();
+            2. new Test(); //no need to create reference i.e. t
+    - Syntax :
+    class Test
+    {
+        public Test()
+        {
+
+        }
+        public static void main(String[] args)
+        {
+        Test t = new Test();
+        }
+    }
